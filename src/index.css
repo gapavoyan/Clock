@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main{
+    height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(164,163,164);
+background: radial-gradient(circle, rgba(164,163,164,1) 0%, rgba(18,57,103,1) 100%);
+}
+.clock{
+    width: 40%;
+    height: 80%;
+    border: 4px solid rgb(89, 142, 174);
+    background-image: url("https://hdclipartall.com/images/large-blank-clock-template-handwriting-for-kids-math-time-craft-clock-blank-clock-clipart-413_409.jpg");
+    background-size: 100% 100%;
+    position: relative;
+    border-radius: 100%;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+.hour{
+    width:3px;
+    height: 108px;
+    background-color: black;
+    position: absolute;
+    left: 19.8vw;
+    top: 25vh;
+    display: inline-block;
+    transform-origin: bottom;
+}
+.min{
+    width:3px;
+    height: 142px;
+    background-color:black;
+    position: absolute;
+    left: 19.8vw;
+    top: 20.5vh;
+    display: inline-block;
+    transform-origin: bottom;
+
+}
+.sec{
+    width: 3px;
+    height: 178px;
+    background-color: rgb(69, 120, 209);
+    position: absolute;
+    left: 19.8vw;
+    top: 15.7vh;
+    display: inline-block;
+    transform-origin: bottom;
+}
